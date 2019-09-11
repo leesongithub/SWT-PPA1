@@ -33,6 +33,7 @@ to the TDD process of
 1. RED (write test that fails)
 2. GREEN (write code so test passes)
 3. REFACTOR (integrate)
+
 Additionally, 'assignment1.cpp' demonstrates that I was able to write the app in C++. 
 
 Thanks,
