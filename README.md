@@ -27,6 +27,13 @@ app in JS, or write C++ Boost unit tests.
 So the first screen recording demonstrates my C++ app's functionality. This file is assignment1.cpp
 
 But the unit tests fall under a1.test.js which tests a1index.js and a1_1index.js
+As the PDF spec states, the "Objective is to show process conformance".
+My screen recording of a1.test.js and associated code demonstrates that I have conformed
+to the TDD process of 
+1. RED (write test that fails)
+2. GREEN (write code so test passes)
+3. REFACTOR (integrate)
+Additionally, 'assignment1.cpp' demonstrates that I was able to write the app in C++. 
 
 Thanks,
 
