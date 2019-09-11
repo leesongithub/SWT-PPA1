@@ -10,7 +10,10 @@ Run `yarn run test` or `npm run test` to execute tests
 NOTE
 
 So I wrote the app (as in, the BMI / Tip / Distance / Retirement age calculator) in C++.
-However, I was having problems with writing unit tests for C++ (in Boost.Test).
+However, I was having problems with writing unit tests for C++ (in Boost.Test). Boost would 
+not run correctly, and I did not know how to write unit tests that navigated the multiple
+inputs for our command line app (e.g. selecting the menu item, then entering four numbers).
+This is mainly because the demo only demonstrated single-input unit tests for Javascript. 
 
 Because the in-class demo only showed us how to write unit tests for Javascript / Jest 
 with single inputs and outputs, I decided to write unit tests in Jest since that was 
@@ -25,4 +28,6 @@ So the first screen recording demonstrates my C++ app's functionality. This file
 
 But the unit tests fall under a1.test.js which tests a1index.js and a1_1index.js
 
-Thanks
+Thanks,
+
+Leeson
