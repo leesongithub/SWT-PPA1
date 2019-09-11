@@ -7,3 +7,22 @@ Run `node a1index.js` to run the app
 
 Run `yarn run test` or `npm run test` to execute tests
 
+NOTE
+
+So I wrote the app (as in, the BMI / Tip / Distance / Retirement age calculator) in C++.
+However, I was having problems with writing unit tests for C++ (in Boost.Test).
+
+Because the in-class demo only showed us how to write unit tests for Javascript / Jest 
+with single inputs and outputs, I decided to write unit tests in Jest since that was 
+what we were taught. 
+
+However, lacking a Javascript app, I just wrote a few simple functions in Javascript, and
+correspondingly simple tests in Jest, so that the grader knows that I understand the TDD
+process and how to write JS unit tests-- I just didn't have the ability to rewrite the 
+app in JS, or write C++ Boost unit tests.
+
+So the first screen recording demonstrates my C++ app's functionality. This file is assignment1.cpp
+
+But the unit tests fall under a1.test.js which tests a1index.js and a1_1index.js
+
+Thanks
