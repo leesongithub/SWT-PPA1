@@ -1,0 +1,16 @@
+{
+  "name": "titlecase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
